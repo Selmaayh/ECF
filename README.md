@@ -19,4 +19,5 @@ Liste des taches :
 
 - Page contact (formulaire + validation JS + HTML CSS Responsive) 9h
 - Page acc HTML fini 3h 
-- 
+- Responsive header et footer terminé
+
