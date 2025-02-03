@@ -23,3 +23,9 @@ Liste des taches :
 - Section hero, faite un don, notre mission, testez vos connaissainces, temoignages, et diaporama fini! 
 
 
+### Echec 
+
+- Js partie faite un don 
+- Diapo image qui change mais le texte reste le meme 
+- 
+

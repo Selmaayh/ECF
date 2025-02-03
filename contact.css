@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f8f9fa;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CSS MAIN */
+
+main {
+    margin: 40px auto;
+    width: 50%;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+
+/* CSS FORMULAIRE CONTACT */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #008C45;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006837;
+}
+.send{
+    height: 18px;
+}
+
+
+
+/* Responsive page contact */
+@media (max-width: 700px) {
+    main { 
+        width: 90%;
+    }
+
+    /* .mission-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mission-image img {
+        height: 250px;
+    }
+
+    .mission-text {
+        padding: 20px;
+    } */
+}
+
+
+
+/* CSS HEADER */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.don {
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.don {
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.heart{
+    height: 20px;
+}
+
+.navbar, .footer{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar{
+    background-color:#057858 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.logo img{
+    max-height: 40px;
+}
+
+.accueil{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#btn{
+    background-color: #DA2627;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-top: 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+/* RESPONSIVE HEADER */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        flex-direction: column;
+        display: flex;
+        text-align: left;
+    }
+    .accueil {
+    flex-direction: column;
+    margin: 15px;
+    } 
+
+/* 13/12 */
+
+    #btn {
+        width: 100%;
+        margin-top: 20px;
+    } 
+}
+
+
+
+
+/* CSS FOOTER */
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.footer h3{
+    margin-bottom: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.footer-section{
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 5px;
+    
+    
+}
+.footer-section img{
+    width: 20px;
+    height: 20px;
+}
+.footer p {
+    text-align: left;
+}
+
+
+/* RESPONSIVE FOOTER */
+@media (max-width: 700px) {
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        display: flex;
+        text-align: left;
+    }
+}
